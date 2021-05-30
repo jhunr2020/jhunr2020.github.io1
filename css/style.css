@@ -22,7 +22,27 @@ html {
  ::-webkit-scrollbar-thumb {
     background-color: #46160a;
 }
+#message {
 
+  display: none;
+
+}
+
+@media (max-width: 500px){
+
+  #demo {
+
+    display: none;
+
+  }
+
+  #message {
+
+    display: block;
+
+  }
+
+}
 .navbar {
     background-color: #2d2c2a;
     width: 100%;
