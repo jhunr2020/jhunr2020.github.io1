@@ -824,6 +824,9 @@ footer {
     .homelogo1 {
         width: calc(50% - 20px);
     }
+     #home .flex-container .flex-item #slideshow {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
