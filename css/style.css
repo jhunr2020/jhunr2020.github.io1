@@ -22,27 +22,7 @@ html {
  ::-webkit-scrollbar-thumb {
     background-color: #46160a;
 }
-#message {
 
-  display: none;
-
-}
-
-@media (max-width: 600px){
-
-  #demo {
-
-    display: none;
-
-  }
-
-  #message {
-
-    display: block;
-
-  }
-
-}
 .navbar {
     background-color: #2d2c2a;
     width: 100%;
@@ -864,6 +844,9 @@ footer {
         max-width: 100%;
     }
     .homelogo1 {
+        display: none;
+    }
+    #home .flex-container .flex-item #slideshow {
         display: none;
     }
 }
