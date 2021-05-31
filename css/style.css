@@ -824,7 +824,7 @@ footer {
     .homelogo1 {
         width: calc(50% - 20px);
     }
-     #home .flex-container .flex-item #slideshow {
+    #slideshow {
         display: none;
     }
 }
@@ -849,7 +849,7 @@ footer {
     .homelogo1 {
         display: none;
     }
-    #home .flex-container .flex-item #slideshow {
+   #slideshow {
         display: none;
     }
 }
